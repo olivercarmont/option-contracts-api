@@ -1,4 +1,4 @@
-# Option Contracts Lambda Function
+# Option Contracts API
 
 This Lambda function retrieves relevant option contracts for a given stock ticker using the Polygon.io API. It's written in Rust and can be deployed as an AWS Lambda function.
 
