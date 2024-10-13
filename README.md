@@ -34,7 +34,7 @@ The function returns a JSON response with an array of option contracts. Each con
     "expiration_date": "2024-10-18",
     "implied_volatility": "239.97%",
     "open_interest": "1447",
-    "premium": "N/A",
+    "premium": "3.45",
     "strike_price": "100",
     "ticker": "O:AAPL241018P00100000"
 }
