@@ -10,7 +10,7 @@ This Lambda function retrieves relevant option contracts for a given stock ticke
 - `days_forward`: The number of days in the future to look for contracts (default: 30)
 - `contract_type`: The type of option contract to retrieve ("call" or "put")
 
-### Example Lambda Function Call
+### Invocation
 
 You can invoke the Lambda function with the following JSON input:
 
@@ -24,7 +24,7 @@ You can invoke the Lambda function with the following JSON input:
 }
 ```
 
-### Example Output
+### Output
 
 The function returns a JSON response with an array of option contracts. Each contract is represented as a JSON object with the following structure:
 
@@ -102,4 +102,4 @@ Make sure to replace `https://your-function-url.lambda-url.region.on.aws/` with 
 
 ## Important Note
 
-This function requires a Polygon.io API key with access to options data. Make sure you have the Pro plan or higher on Polygon.io to access the necessary endpoints.
+This function requires a Polygon.io API key with access to options data. Make sure you have the **Pro plan or higher on Polygon.io to access the necessary endpoints.**
